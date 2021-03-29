@@ -70,9 +70,9 @@ h1
 
 .me-img
 {
-	background-image: url("profile.png");
+	background-image: url("profile.jpg");
 	background-size:100%;
-  background-position:0px;
+  	background-position:0px;
 	border-radius:100%;
 	height:150px;
 	margin:0 auto;
@@ -92,6 +92,20 @@ h1
 	color:rgba(0,0,0,.3);
 	font-style:normal;
 	font-weight:700;
+}
+
+.name-hero h2
+{
+	font-family:Open Sans, sans-serif;
+	font-size:1.0em;
+	text-align:center;
+}
+
+.name-hero h2 em
+{
+	color:rgba(0,0,0,.3);
+	font-style:normal;
+	font-weight:500;
 }
 
 .name-hero p
@@ -135,6 +149,12 @@ h1
 .inner section
 {
 	margin:100px auto;
+}
+
+.inner img 
+{
+	width:40%;
+	height:40%;
 }
 
 ul
